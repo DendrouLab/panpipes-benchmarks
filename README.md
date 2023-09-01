@@ -8,4 +8,5 @@ The R script was submitted using the provided bash submission script and elapsed
 
 
 Panpipes integration was run calling
-`panpipes integration make full` and counting the run time until the process `collate_integration_outputs` which is comparable with the end of the provided R script as it's the step of the pipeline that collates the output of all the integration methods run in parallel.
+`panpipes integration make full` 
+For the seurat benchmarks, we count the run time until the process `collate_integration_outputs` which is comparable with the end of the provided R script as it's the step of the pipeline that collates the output of all the integration methods run in parallel.
